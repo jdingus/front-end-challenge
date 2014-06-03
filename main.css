@@ -46,23 +46,66 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* RESET END */
 
-	.body {
-		background-color: 3952E8
-		float: center;
+
+
+body{
+	text-align: center;
+	background: #408EE8;
+}
+
+.links{
+	position:relative;
+ 	top:20px;
+ 	right:75px;
+}
+	a {
+		padding: 5px;
+		font-weight: bold;
+		font-size: 18px;
+		font-family: arial;
 	}
+ form {
+    display: inline-block;
+    text-align: left;
+    width: 550px;
 
-	/* =======================
-		Buttons
-		======================
-	*/
+    }
 
-	.btn {									/* applies to all buttons, REMEMBER THIS IS LAYERED DO GLOBAL 1ST THEN SPECIFIC */
-		border-radius: 20px;
-		display: inline-block;
-		margin: 0;
+p{
+	padding-bottom: 3px;
+	text-align: bottom;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: arial;
+}
 
-	}
+.title {
+	width: 400px;
+	height: 25px;
+	border-color: black;
+	border-width: 2px;
+}
 
+.body {
+	width: 400px;
+	height: 200px;
+	border-color: black;
+	border-width: 3px;
+}
+
+a:link    { color: white; }
+a:visited { color: white; }
+
+input[type=submit]  {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+	
